@@ -57,9 +57,13 @@ Copy and paste this code in a python file inside your cogs folder:
 
         @commands.Cog.listener()
         async def on_dbl_vote(self, data):
+            vote_data = data
+            voter = await self.bot.fetch_user(vote_data['user'])
+            channel = self.bot.get_channel(ID)
             """An event that is called whenever someone votes for the bot on top.gg."""
             print("Received an upvote:", "\n", data, sep="")
-
+            await channel.send(f"Thank You {voter.mention} For voting!")
+ 
         @commands.Cog.listener()
         async def on_dbl_test(self, data):
             """An event that is called whenever someone tests the webhook system for your bot on top.gg."""
