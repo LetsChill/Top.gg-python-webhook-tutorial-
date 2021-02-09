@@ -20,7 +20,7 @@ There is alot it of stuff you can use with the webhook, you will learn how to ma
 
 Copy and paste this code in a python file inside your cogs folder:
 
-.. code:: py
+ 
 
     from discord.ext import commands
 
