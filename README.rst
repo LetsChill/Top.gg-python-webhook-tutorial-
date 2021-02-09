@@ -17,6 +17,17 @@ Requirements
 
 - **discord.py bot**
 
+- **dbl Module installed**
+
+How to install dbl module
+----------------
+
+Install via pip (recommended)
+
+.. code:: bash
+
+    pip3 install dblpy
+
 How to make a webhook:
 ----------------
 
