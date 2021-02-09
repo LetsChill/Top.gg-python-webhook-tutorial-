@@ -62,7 +62,7 @@ Copy and paste this code in a python file inside your cogs folder:
 
 **The variables PASSWORD can be anything, this should stay as a secret, change it to what ever you want! be carefull.**
 
-if your changed the PASSWORD to anything you want, go to your webhook tab on top.gg and put the password in the authorisation field, under the webhoon url.
+if your changed the PASSWORD to anything you want, go to your webhook tab on top.gg and put the password in the authorisation field, under the webhook url.
 
 **Restart your bot so the cog can be loaded now**
 
