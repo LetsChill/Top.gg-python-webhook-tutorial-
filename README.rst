@@ -77,7 +77,7 @@ the webhook url format is: https://YOUR_REPL_PROJECT_NAME.YOUR_REPL_USER_NAME.re
 
 Get your ip adress, and port, when you get both of them, **IF THE PORT IS NOT 8080, CHANGE THE PORT IN THE CODE TO YOUR PORT**, make sure the port in the code matches your vps port.
 
-the format of the webhook url must be : X.X.X.X:XXXX or XXXXX/dblwebhook
+the format of the webhook url must be : **X.X.X.X:XXXX or XXXXX/dblwebhook**
 
 if you complete all the steps above, test the webhook, worked?, Congrats!
 
