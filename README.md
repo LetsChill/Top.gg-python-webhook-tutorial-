@@ -2,7 +2,7 @@
 A Unofficial tutorial on how to make a working webhook on top.gg or any other bot listing services.
 
 
-##Begining
+# Begining
 
 Webhooks is how programs communicate and share data, and this tutorial might be difficult if you don't know how to deal with it!
 
@@ -13,8 +13,6 @@ Webhooks is how programs communicate and share data, and this tutorial might be 
 An Accepted discord bot in Top.gg
 
 discord.py bot
-
-an open ip adress and port (for vps)
 
 # How to make a webhook in (vps):
 
