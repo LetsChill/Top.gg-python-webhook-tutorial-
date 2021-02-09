@@ -67,8 +67,12 @@ Copy and paste this code in a python file inside your cogs folder:
         @commands.Cog.listener()
         async def on_dbl_test(self, data):
             """An event that is called whenever someone tests the webhook system for your bot on top.gg."""
+            test_data = data
+            tester = await self.bot.fetch_user(test_data['user'])
+            channel = self.bot.get_channel(ID)
             print("Received a test upvote:", "\n", data, sep="")
-
+            await channel.send(f"Tested the webhook and working {tester.mention}")
+            
 
     def setup(bot):
         bot.add_cog(TopGG(bot)
