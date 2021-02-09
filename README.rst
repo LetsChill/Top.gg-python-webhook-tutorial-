@@ -58,7 +58,7 @@ Copy and paste this code in a python file inside your cogs folder:
 
 **Now Change some variables in the code**
 
-- Change TOKEN to your bot's token, can be found in your bots edit>Webhook tab page in Top.gg
+- Change TOKEN to your top.gg api token, can be found in your bots edit>Webhook tab page in Top.gg
 
 **The variables PASSWORD can be anything, this should stay as a secret, change it to what ever you want! be carefull.**
 
