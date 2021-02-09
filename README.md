@@ -8,7 +8,7 @@ Webhooks is how programs communicate and share data, and this tutorial might be 
 
 
 
-##Requirements
+# Requirements
 
 An Accepted discord bot in Top.gg
 
@@ -16,7 +16,7 @@ discord.py bot
 
 an open ip adress and port (for vps)
 
-##How to make a webhook in (vps):
+# How to make a webhook in (vps):
 
 There is alot it of stuff you can use with the webhook, you will learn how to make a webhook for guild posting, and receiveing data from top.gg:
 
