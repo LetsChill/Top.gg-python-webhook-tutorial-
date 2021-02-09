@@ -96,3 +96,5 @@ if you complete all the steps above, test the webhook, worked?, Congrats!
 
 *subjected to change*
 
+
+repl users: **IF YOU HAVE A FLASK SERVER, ITS OK, TOP.GG CAN ACT AS A WEBSITE, UPTIMEBOT WILL SAY ITS DOWN BUT WILL KEEP PINGING IT!**
