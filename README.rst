@@ -39,8 +39,8 @@ Copy and paste this code in a python file inside your cogs folder:
 
         def __init__(self, bot):
             self.bot = bot
-            self.token = 'dbl_token'  # set this to your DBL token
-            self.dblpy = dbl.DBLClient(self.bot, self.token, webhook_path='/dblwebhook', webhook_auth='password', webhook_port=5000)
+            self.token = 'TOKEN'  # set this to your DBL token
+            self.dblpy = dbl.DBLClient(self.bot, self.token, webhook_path='/dblwebhook', webhook_auth='PASSWORD', webhook_port=8080)
 
         @commands.Cog.listener()
         async def on_dbl_vote(self, data):
@@ -54,5 +54,32 @@ Copy and paste this code in a python file inside your cogs folder:
 
 
     def setup(bot):
-        bot.add_cog(TopGG(bot))
+        bot.add_cog(TopGG(bot)
+
+**Now Change some variables in the code**
+
+- Change TOKEN to your bot's token, can be found in your bots edit>Webhook tab page in Top.gg
+
+**The variables PASSWORD can be anything, this should stay as a secret, change it to what ever you want! be carefull.**
+
+if your changed change the PASSWORD to anything you want, go to your webhook tab on top.gg and put the password in the authorisation field, under the webhoon url.
+
+**Restart your bot so the cog can be loaded now**
+
+now the part where you find your webhoon url.
+
+- **On Repl.it** 
+
+the webhook url format is: https://YOUR_REPL_PROJECT_NAME.YOUR_REPL_USER_NAME.repl.co/dblwebhook
+
+
+- **For VPS** 
+
+Get your ip adress, and port, when you get both of them, **IF THE PORT IS NOT 8080, CHANGE THE PORT IN THE CODE TO YOUR PORT**, make sure the port in the code matches your vps port.
+
+the format of the webhook url must be : X.X.X.X:XXXX or XXXXX/dblwebhook
+
+if you complete all the steps above, test the webhook, worked?, Congrats!
+
+*subjected to change*
 
