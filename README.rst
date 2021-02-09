@@ -15,9 +15,9 @@ Requirements
 
 An Accepted discord bot in Top.gg
 
-discord.py bot
+- discord.py bot
 
-How to make a webhook:
+- How to make a webhook:
 ----------------
 
 There is alot it of stuff you can use with the webhook, you will learn how to make a webhook for guild posting, and receiveing data from top.gg:
