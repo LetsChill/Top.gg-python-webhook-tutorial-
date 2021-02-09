@@ -66,7 +66,7 @@ if your changed the PASSWORD to anything you want, go to your webhook tab on top
 
 **Restart your bot so the cog can be loaded now**
 
-now the part where you find your webhoon url.
+now the part where you find your webhook url.
 
 - **On Repl.it** 
 
