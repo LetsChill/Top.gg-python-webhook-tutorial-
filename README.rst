@@ -26,7 +26,7 @@ Install via pip (recommended)
 
 .. code:: bash
 
-    pip3 install dblpy
+    pip install dblpy
 
 **Cog is needed for this explanation, you should know what are cogs, check https://discordpy.readthedocs.io/en/latest/ext/commands/cogs.html**
 
