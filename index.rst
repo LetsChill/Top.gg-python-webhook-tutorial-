@@ -20,7 +20,7 @@ Requirements
 - **dbl Module installed**
 
 How to install dbl module
-----------------
+--------------------------
 
 Install via pip (recommended)
 
@@ -31,7 +31,7 @@ Install via pip (recommended)
 **Cog is needed for this explanation, you should know what are cogs, check https://discordpy.readthedocs.io/en/latest/ext/commands/cogs.html**
 
 How to make a webhook:
-----------------
+-------------------------
 
 There is alot it of stuff you can use with the webhook, you will learn how to make a webhook for guild posting, and receiveing data from top.gg:
 
