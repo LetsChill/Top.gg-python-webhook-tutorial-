@@ -106,7 +106,7 @@ if you complete all the steps above, test the webhook, worked?, Congrats!
 
 -- **For selfhosting**
 
-still investigating how to do so, stay tuned.
+you could ping your own ip adress, get your public ip, well, ip adresses are mostly not persistant but might stay for a long while, hosting is recommended.
 
 
 
